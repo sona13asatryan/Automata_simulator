@@ -7,7 +7,7 @@ int main() {
   std::string line;
   
   std::ifstream fin("example.txt");
-  // If the input is a valid email there is no one in the string, if there is a 1, than the mail is incorrect.
+  // In the given example if the input is a valid email then the output tape contains only zeros and the final state is f.
   while(std::getline(fin,line)) {
     std::cout << line << std::endl;
     auto_out a = automata.run(line);
