@@ -16,4 +16,5 @@ Q={q0, q1} - state alphabet.
 
 This program reads the characters from the input tape and outputs new characters on the output tape according to the delta and lambda functions of the automata. The output is the final tape and the final state. You can use this to test wheter your automata works correctly.
 Configuration format is described above.
-YOu can see an example in the
+You can see an example [here](https://github.com/sona13asatryan/Automata_simulator/blob/main/config.txt). This automata checks whether the input corresponds to a valid email, if yes the output tape contains only zeros and the final state is f.
+
